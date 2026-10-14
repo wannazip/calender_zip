@@ -12,7 +12,7 @@ from discord import app_commands
 # =========================
 # 기본 설정
 # =========================
-TOKEN = os.getenv("DISCORD_BOT_TOKEN", "MTU0NzI1NzI4MDg1OTIxODA1MQ.GPJqXY.xutSEtf7_p7MOV-LqwX1vFZ0IFCFzdzOF2UB-Q")
+TOKEN = os.getenv("DISCORD_BOT_TOKEN", "access_token")
 DB_PATH = os.getenv("CALENDAR_DB_PATH", "calendar.db")
 KST = datetime.now().astimezone().tzinfo
 
